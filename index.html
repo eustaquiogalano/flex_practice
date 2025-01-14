@@ -10,8 +10,8 @@
     <main>
         <!-- the form in this section imitates a media query behavior -->
         <section id="media-query">
-            <div id="slider">
-                <input type="range">
+            <div id="slider-container">
+                <input id="slider" type="range" value="500" min="300" max="700">
             </div>
             <form>
                 <div>
@@ -22,7 +22,9 @@
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email">
                 </div>
-                <button>Submit</button>
+                <div>
+                    <button>Submit</button>
+                </div>
             </form>
         </section>
     </main>
