@@ -20,8 +20,8 @@ main {
     background-color: rgb(44, 44, 44);
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 #media-query {
@@ -34,10 +34,15 @@ main {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto; /* centers itself both main and cross axis */
     gap: .5rem;
 } 
+
+#media-query > div{
+    margin: auto;  /* centers itself both main and cross axis */
+}
 
 form {
     display: flex;
